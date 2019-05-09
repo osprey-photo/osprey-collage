@@ -24,7 +24,10 @@
     "watch": "npm run build -- --watch",
     "watch:test": "npm run test -- --watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jimp": "^0.6.1",
+    "winston": "^3.2.1"
+  },
   "devDependencies": {
     "@types/chai": "^4.1.6",
     "@types/mocha": "^5.2.5",
